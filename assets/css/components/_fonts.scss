@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Saol Display";
+    src: url("./fonts/SaolDisplay-LightItalic.woff2") format("woff2"), url("./fonts/SaolDisplay-LightItalic.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Saol Display";
+    src: url("./fonts/SaolDisplay-Regular.woff2") format("woff2"), url("./fonts/SaolDisplay-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Saol Display";
+    src: url("./fonts/SaolDisplay-Light.woff2") format("woff2"), url("./fonts/SaolDisplay-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+// Signature font
+@font-face {
+    font-family: 'emithascript';
+    src: url('./fonts/emitha-script-webfont.woff2') format('woff2'),
+         url('./fonts/emitha-script-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    font-kerning: none;
+    -webkit-text-rendering: optimizeSpeed;
+    text-rendering: optimizeSpeed;
+}
+
+// The Pinery Brand font
+@font-face {
+    font-family: 'Geometos Neue';
+    src: url('./fonts/FONTSPRINGDEMO-GeometosNeueRegular.woff2') format('woff2'),
+        url('./fonts/FONTSPRINGDEMO-GeometosNeueRegular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geometos Neue';
+    src: url('./fonts/FONTSPRINGDEMO-GeometosNeueBoldRegular.woff2') format('woff2'),
+        url('./fonts/FONTSPRINGDEMO-GeometosNeueBoldRegular.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+

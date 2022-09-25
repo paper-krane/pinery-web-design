@@ -1,0 +1,59 @@
+// Media Queries
+$mobile-screen: 599.98px !default;
+$tablet-screen-down: 991.98px !default;
+$desktop-screen-down: 1279.98px !default;
+$desktop-large-screen-down: 1599.98px !default;
+$mobile-landscape-screen-up: 600px !default;
+$tablet-landscape-screen-up: 992px !default;
+$desktop-screen-up: 1280px !default;
+$desktop-large-screen-up: 1600px !default;
+$desktop-extra-large-screen-up: 2000px !default;
+
+$s-and-down: "only screen and (max-width : #{$mobile-screen})" !default;
+$m-and-down: "only screen and (max-width : #{$tablet-screen-down})" !default;
+$l-and-down: "only screen and (max-width : #{$desktop-screen-down})" !default;
+$xl-and-down: "only screen and (max-width : #{$desktop-large-screen-down})" !default;
+$m-and-up: "only screen and (min-width : #{$mobile-landscape-screen-up})" !default;
+$l-and-up: "only screen and (min-width : #{$tablet-landscape-screen-up})" !default;
+$xl-and-up: "only screen and (min-width : #{$desktop-screen-up})" !default;
+$xxl-and-up: "only screen and (min-width : #{$desktop-large-screen-up})" !default;
+$xxxl-and-up: "only screen and (min-width : #{$desktop-extra-large-screen-up})" !default;
+
+// Colors 
+$site-bg: #f6f4f2 !default;
+$font-color: #141414 !default;
+$font-accent-color: #2c2c2c !default;
+$heading-font-color: #11110f !default;
+$primary-color: #aa9659 !default;
+$secondary-color: darken($primary-color, 10%) !default;
+$highlight-color: #e2d7d7;
+
+// Fonts
+$font-stack: 'Raleway', sans-serif !default;
+$font-weight: 400 !default;
+$heading-font-stack: 'Saol Display', sans-serif !default;
+$heading-font-weight: 300 !default;
+$signature-font-stack: 'emithascript' !default;
+$signature-font-weight: normal !default;
+
+$h1-fontsize-mobile: 2.5rem !default;
+$h2-fontsize-mobile: 2rem !default;
+$h3-fontsize-mobile: 1.75rem !default;
+$h4-fontsize-mobile: 1.5rem !default;
+$h5-fontsize-mobile: 1.25rem !default;
+$h6-fontsize-mobile: 1.15rem !default;
+$h1-fontsize: 3.5rem !default;
+$h2-fontsize: 3.25rem !default;
+$h3-fontsize: 2.75rem !default;
+$h4-fontsize: 2.5rem !default;
+$h5-fontsize: 1.75rem !default;
+$h6-fontsize: 1.5rem !default;
+$h1-fontsize-desktop: 4rem !default;
+$h2-fontsize-desktop: 3.5rem !default;
+$h3-fontsize-desktop: 3.25rem !default;
+$h4-fontsize-desktop: 2.75rem !default;
+$h5-fontsize-desktop: 1.75rem !default;
+$h6-fontsize-desktop: 1.5rem !default;
+
+// Design Rules
+$transition: all 0.4s ease !default;

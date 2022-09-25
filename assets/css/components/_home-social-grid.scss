@@ -1,0 +1,25 @@
+#the-pinery__social-grid-container {
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
+
+    .the-pinery__grid {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: calc(100% + 128px);
+    }
+
+    img {
+        display: block;
+        object-fit: cover;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        min-width: 100%;
+        min-height: 100%;
+    }
+}

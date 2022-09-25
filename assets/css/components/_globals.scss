@@ -1,0 +1,56 @@
+*, *:before, *:after {
+    box-sizing: border-box !important;
+}
+html {
+    width: 100%;
+    overflow-x: hidden;
+    background-color: $site-bg; 
+    
+    body {
+        overflow-x: hidden;
+    }
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: $font-stack;
+}
+
+
+// Links
+a, a:visited {
+    color: $primary-color;
+    -webkit-tap-highlight-color: transparent;
+    transition: $transition;
+}
+a:hover, a:focus {
+    color: $secondary-color;
+}
+a *, button * {
+    pointer-events: none;
+}
+
+
+// Text selection
+::selection {
+    background: $highlight-color;
+}
+::-moz-selection {
+    background: $highlight-color;
+}
+
+
+// Images
+figure {
+    margin: 0;
+    padding: 0;
+}
+img,
+video {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
