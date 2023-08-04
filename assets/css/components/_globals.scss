@@ -3,11 +3,13 @@
 }
 html {
     width: 100%;
+    min-height: 100vh;
     overflow-x: hidden;
     background-color: $site-bg; 
     
     body {
         overflow-x: hidden;
+        min-height: 100vh;
     }
 }
 
